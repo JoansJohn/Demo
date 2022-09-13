@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/maventest" name="MavenTestAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log>
+                <property name="Message" value="This is maven test api log"/>
+            </log>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

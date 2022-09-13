@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="MavenTestAPI" groupId="com.Maven.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/MavenTestAPI.xml</file>
+    </artifact>
+    <artifact name="MavenTestAPI_swagger" groupId="com.Maven.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MavenTestAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="MavenTestAPI_metadata" groupId="com.Maven.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MavenTestAPI_metadata.yaml</file>
+    </artifact>
+</artifacts>
