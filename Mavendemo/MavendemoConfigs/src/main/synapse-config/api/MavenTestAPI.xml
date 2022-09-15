@@ -3,7 +3,7 @@
     <resource methods="GET">
         <inSequence>
             <log>
-                <property name="Message log value" value="This is demo log api"/>
+                <property name="Message log" value="This is demo log api"/>
             </log>
         </inSequence>
         <outSequence/>
