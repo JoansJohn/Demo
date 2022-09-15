@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
-  title: SampleAPIDemo
+  title: MavenTestAPI
   description: API Definition of MavenTestAPI
   version: 1.0.0
 servers:
-- url: http://localhost:8290/SampleAPIDemo
+- url: http://localhost:8290/maventest
 paths:
   /:
     get:
